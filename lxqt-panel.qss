@@ -217,12 +217,12 @@ QCalendarWidget #qt_calendar_prevmonth {
    border-top: 2px solid transparent;
 }
 #TaskBar QToolButton[urgent="true"] {
-   color: #ec5a5c;
-   background: #ec5a5c;
+   color: black;
+   background: #e63109;
 }
 #TaskBar LXQtGroupPopup {
    background: palette(text);
-   border: 1px solid palette(highlight);
+   border: 1px solid silver;
 }
 /*
  * Tray Plugin

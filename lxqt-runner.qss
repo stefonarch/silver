@@ -1,7 +1,6 @@
 /*
- * Panel
- */
-
+Panel
+*/
 #panel {
    background-color:qlineargradient(x1:1, y1:1, x2:0, y2:1, stop:0 #7f7f7f, stop:1 #909e9a); 
    border: 1px solid #e2e6e7;
@@ -11,8 +10,8 @@
    border-radius:3px;
 }
 /*
- * Buttons
- */
+Buttons
+*/
 QToolButton::menu-indicator {
    image: none;
 }
@@ -40,9 +39,8 @@ QToolButton:hover {
 }
 
 /*
- *Search field
- */
-
+Search field
+*/
 #commandEd {
    border: 1px solid #878a8a;
    padding: 4px;
@@ -50,25 +48,29 @@ QToolButton:hover {
    background: #f0f0f0;
    border-radius:2px;
    font:14px dejavu-sans;
+   selection-background-color:grey;
 }
 
 /*
- *Search results list, seems not working, except background
- */
-
+Search results list
+*/
 #commandList {
-   border: 1px solid #4C4C4C;
+   border: 1px solid #878a8a;
+   background:#bfbfbf;
+   alternate-background-color:rgba(220, 220,220, 25%);
+   selection-color: #ebe3e3;  
+   selection-background-color:#6c7673;
+   padding:4px;
 }
 
-#commandList::item {
-   margin: 2px;
-   padding: 2px;
+#commandList::item /*bug? Is not considered at all*/{
+  margin: 2px;
+  padding: 2px;
+  color:red; 
 }
-
 /*
- * Menus
- */
-
+Menus
+*/
 QMenu {
    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf);
    border-radius:3px;
