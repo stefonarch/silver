@@ -3,14 +3,14 @@
  */
 
 Notification {
-   background-color:qlineargradient(x1:1, y1:1, x2:0, y2:1, stop:0 #4a4a4a, stop:1 #909e9a); 
+  background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf);
    border: 1px solid black;
    border-radius:4px;
    padding: 1px;
 }
 
 QLabel {
-   color: palette(window);
+   color: black;
 }
 
 QToolButton {
@@ -40,7 +40,7 @@ QToolButton:pressed {
 }
 
 #appLabel {
-   color: palette(window);
+   color: ##334241;
 }
 
 #closeButton {

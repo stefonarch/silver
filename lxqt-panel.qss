@@ -314,7 +314,7 @@ VolumePopup {
 }
 VolumePopup  > QPushButton {
    color: palette(window);
-   background: palette(text);
+   background: #8c8f8f;
    padding: 2px 10px;
    margin: 3px;
    border: none;
@@ -322,7 +322,7 @@ VolumePopup  > QPushButton {
 }
 VolumePopup  > QPushButton:hover {
    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #adadad, stop:1 #d1dedd);
-   color:palette(text);
+   color:black;
    border-radius:3px;
 }
 VolumePopup  > QSlider::groove:vertical {
@@ -430,7 +430,7 @@ VolumePopup  > QSlider::sub-page:vertical {
 }
 #KbIndicator QLabel:enabled {
    background-color:qlineargradient(x1:1, y1:0, x2:1, y2:1, stop:0 #adadad, stop:1 #d1dedd);
-   color:palette(text);
+   color: black;
    border-radius:3px;
    margin:1px;
 }
