@@ -12,7 +12,7 @@
    height="16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
    sodipodi:docname="arrow-right.svg">
   <metadata
      id="metadata12">
@@ -41,10 +41,11 @@
      inkscape:zoom="14.75"
      inkscape:cx="8"
      inkscape:cy="8"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-x="380"
+     inkscape:window-y="177"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g6" />
+     inkscape:current-layer="g6"
+     inkscape:document-rotation="0" />
   <defs
      id="defs4" />
   <g
@@ -52,7 +53,7 @@
      transform="matrix(0 -1.16361 .74817 0 -555.37314 227.93914)"
      id="g6">
     <path
-       style="color:#bebebe;fill:#eeeeff;fill-opacity:1"
+       style="color:#bebebe;fill:#666666;fill-opacity:1"
        d="m 195.03,751 0,1 c -9.1e-4,0.0111 5.9e-4,0.021 -9e-5,0.0312 -0.0112,0.25496 -0.12835,0.50994 -0.31251,0.6875 l -5.7188,6.2977 -5.7188,-6.2977 c -0.18821,-0.1881 -0.28121,-0.45346 -0.28122,-0.71875 l 0,-1 1,0 c 0.26531,7e-5 0.53059,0.0931 0.71873,0.28131 l 4.2812,4.829 4.2813,-4.829 c 0.19464,-0.21073 0.46925,-0.30315 0.74998,-0.2813 z"
        id="path8" />
   </g>

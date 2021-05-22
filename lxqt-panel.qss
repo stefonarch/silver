@@ -51,18 +51,18 @@ LXQtPanelPlugin > QToolButton:pressed {
  * Menus
  */
 QMenu {
-   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf);
+   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf,80%);	
    border-radius:3px;
 }
 QMenu::icon {
    background-color: transparent;
    border: 1px solid transparent;
-   padding-left: 2px;
+   padding-left: 3px;
 }
 QMenu::item {
    color: black;
    border: 1px solid transparent;
-   padding: 5px 30px 5px 30px;
+   padding: 5px 50px 5px 15px;
 }
 QMenu::item:selected {
    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
@@ -124,11 +124,6 @@ QCalendarWidget QToolButton {
    padding:2px;
    margin: 2px;
 }
-/*QCalendarWidget QToolButton:hover {
-    background: red;
-    color: palette(window);
-}
-*/
 QCalendarWidget #qt_calendar_nextmonth {
    qproperty-icon: url(calendar-popup/right-arrow.svg);
    qproperty-iconSize: 18px;
@@ -156,7 +151,7 @@ QCalendarWidget #qt_calendar_prevmonth {
    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #d9e6da, stop:1 #dfe6e4);
 }
 #MainMenu:pressed {
-   padding: 1px;
+   padding-top: 1px;
 }
 #MainMenu QLineEdit {
    border: none;
@@ -167,18 +162,20 @@ QCalendarWidget #qt_calendar_prevmonth {
 }
 #MainMenu ActionView {
    border: none;
-   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #adadad, stop:1 #d1dedd);
+   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf,80%);
    margin-right:5px;
    margin-top:5px;
 }
 #MainMenu ActionView::item {
-   background-color:#7e7e7e;
    border: 1px solid transparent;
    padding: 2px;
    color:black;
 }
-#MainMenu ActionView::item:hover {
-   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #adadad, stop:1 #d1dedd);
+#MainMenu ActionView::item:selected {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+   stop: 0 #f7f7f7, stop: 0.08 #f1f1f1,
+   stop: 0.35 #c3c3c3, stop: 0.4 #b1b1b1,
+   stop: 0.96 #989898, stop: 1 #dcdcdc);
    color:black;
 }
 /*
@@ -345,36 +342,6 @@ VolumePopup  > QSlider::sub-page:vertical {
    background: rgba(0, 0, 0, 80%);
    border-radius: 3px;
 }
- /*
- * Clock
- */
-#Clock{
-   margin: 2px;
-   padding: 2px;
-   background-color:#2e2f2f;
-}
-/*#Clock:hover {
-   background-color:qlineargradient(x1:1, y1:1, x2:0, y2:1, stop:0 #4a4a4a, stop:1 #909e9a);
-   border: 1px solid #939393;
-   color:palette(text);
-   border-radius: 3px;
-}
-#Clock:pressed {
-   border-top: 2px solid transparent;
-}*/
-#Clock > QWidget{
-   margin: 2px;
-}
-#Clock QLabel{
-   margin: 2px;
-   color: #f1f1f1;
-   qproperty-alignment: alignCenter;
-   background-color:#2e2f2f;
-   }
-   #Clock QLabel:hover{
-   color:#c8c8c8;
-   }
-
 /*
  * ShowDesktop
  */
@@ -442,14 +409,12 @@ VolumePopup  > QSlider::sub-page:vertical {
    padding: 2px;
    background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #3e3f3f, stop:1 #2e2f2f);
 }
-#WorldClock:hover {
-   background-color:qlineargradient(x1:1, y1:1, x2:0, y2:1, stop:0 #4a4a4a, stop:1 #909e9a);
-   border: 1px solid #939393;
-   border-radius:3px;
-}
 #WorldClock QLabel {
    margin: 2px;
-   color: palette(window);
+   padding:4px;
+   color: #DEDEDE;
+   background-color:#3d3e3e;
+   
 }
 /*
  * SysStat
