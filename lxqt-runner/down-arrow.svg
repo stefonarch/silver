@@ -10,7 +10,7 @@
    viewBox="0 0 16 16"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    width="100%"
    height="100%"
    sodipodi:docname="down-arrow.svg">
@@ -36,8 +36,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="915"
+     inkscape:window-width="1326"
+     inkscape:window-height="708"
      id="namedview10"
      showgrid="false"
      inkscape:zoom="14.75"
@@ -46,17 +46,18 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     inkscape:document-rotation="0" />
   <g
-     style="fill:#dedede;color:#bebebe;fill-opacity:1"
+     style="fill:#808080;color:#bebebe;fill-opacity:1"
      id="g4">
     <path
        d="M 8,0 C 3.5817219,0 0,3.5817221 0,8 c 0,4.418278 3.5817219,8 8,8 4.418278,0 8,-3.581722 8,-8 C 16,3.5817221 12.418278,0 8,0 z m 0,2 c 3.313708,0 6,2.6862915 6,6 0,3.313708 -2.686292,6 -6,6 C 4.6862915,14 2,11.313708 2,8 2,4.6862915 4.6862915,2 8,2 z"
        id="path6"
-       style="fill:#dedede;fill-opacity:1" />
+       style="fill:#808080;fill-opacity:1" />
     <path
        d="M 7,4 7,8 4,8 8,12 12,8 9,8 9,4 z"
        id="path8"
-       style="fill:#dedede;fill-opacity:1" />
+       style="fill:#808080;fill-opacity:1" />
   </g>
 </svg>

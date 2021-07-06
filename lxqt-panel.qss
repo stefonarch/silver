@@ -51,19 +51,22 @@ LXQtPanelPlugin > QToolButton:pressed {
  * Menus
  */
 QMenu {
-   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf,80%);	
+   background-color:qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #9c9c9c, stop:1 #bfbfbf);
    border-radius:3px;
 }
+
 QMenu::icon {
    background-color: transparent;
    border: 1px solid transparent;
-   padding-left: 3px;
+   padding-left: 5px;
 }
+
 QMenu::item {
    color: black;
    border: 1px solid transparent;
-   padding: 5px 50px 5px 15px;
+   padding: 5px 30px 5px 10px;
 }
+
 QMenu::item:selected {
    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
    stop: 0 #f7f7f7, stop: 0.08 #f1f1f1,
@@ -71,12 +74,15 @@ QMenu::item:selected {
    stop: 0.96 #989898, stop: 1 #dcdcdc);
    color:black;
 }
+
+QMenu::item:selected:disabled {
+   background-color: palette(text);
+}
+
 QMenu::item:disabled {
-   color:#464747;
+   color: #6D6D6D;
 }
-QMenu::right-arrow {
-   image: url(arrow-right.svg);
-}
+
 QMenu::separator {
    background:#d0d0d0;
    margin:0px;
@@ -89,6 +95,10 @@ QMenu QToolButton {
    border-bottom:1px solid #888888;
    border-top:1px solid #888888;
    font: bold ;
+}
+QMenu::indicator:non-exclusive:unchecked {
+   image: url(unchecked.svg);
+   padding-left: 5px;
 }
 /*
  * Calendar Widget
@@ -259,7 +269,7 @@ TrayIcon {
    padding: 4px;
 }
 #LXQtMountPopup {
-   background-color: palette(text);
+   background-color:qlineargradient(x1:1, y1:1, x2:0, y2:1, stop:0 #2e2f2f, stop:1 #4b4c4c);
    padding: 4px;
    border-radius_3px;
 }
@@ -414,7 +424,7 @@ VolumePopup  > QSlider::sub-page:vertical {
    padding:4px;
    color: #DEDEDE;
    background-color:#3d3e3e;
-   
+
 }
 /*
  * SysStat
