@@ -9,8 +9,6 @@ QToolButton {
    margin: 0px;
    border: 0px solid transparent;
    padding: 0px;
-   font-size: 10pt;
-   qproperty-iconSize: 20px;
 }
 
 QToolButton:hover {
@@ -38,7 +36,6 @@ Search field
    border-radius:3px;
    color:#4b5053;
    border-radius:2px;
-   font:14px dejavu-sans;
    selection-background-color:grey;
 }
 
@@ -49,7 +46,7 @@ Search results list
    border: 1px solid #878a8a;
    background:#989898;
    alternate-background-color:rgba(220, 220,220, 25%);
-   selection-color: #ebe3e3;  
+   selection-color: #ebe3e3;
    selection-background-color:#6c7673;
    padding:4px;
 }

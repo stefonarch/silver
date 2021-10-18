@@ -1,5 +1,5 @@
 # silver-lxqt-theme
-Silver metal theme for the LXQt Desktop
+Silver metal theme for the LXQt Desktop. Included in LXQt 1.0 and later.
 
 ![Screenshot](https://github.com/stefonarch/lxqt-themes/raw/master/silver.png)
 
